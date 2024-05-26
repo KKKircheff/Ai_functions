@@ -1,10 +1,8 @@
 import dotenv from 'dotenv';
 import path from 'path';
 import { ChatGroq } from '@langchain/groq';
-import { ChatPromptTemplate } from "@langchain/core/prompts";
 import { PromptTemplate } from "@langchain/core/prompts";
 import { z } from 'zod';
-import { log } from 'console';
 
 const __dirname = path.resolve();
 const projectRoot = path.resolve(__dirname, '../../');
